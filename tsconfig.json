@@ -1,0 +1,9 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"composite": false,
+		"declaration": false
+	},
+	"include": ["src", "vite.config.ts", "../src", "../electron/electron-env.d.ts"],
+	"references": []
+}
